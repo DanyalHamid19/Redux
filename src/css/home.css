@@ -1,0 +1,48 @@
+.main {
+        display: flex;
+        justify-Content: center;
+        align-Items: center;
+        height: 100vh;
+}
+
+.main button{
+    margin-bottom: 10px;
+    
+}
+.card-body{
+    text-align: center;
+}
+
+.cart{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.redux{
+    background-color: rgb(220, 220, 159);
+}
+
+
+span{
+ position: absolute;
+  right: 11px; /* Adjust this value as needed to position it correctly */
+  top: 6px; /* Adjust this value as needed to position it correctly */
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Adding a subtle shadow */
+  z-index: 1; 
+}
